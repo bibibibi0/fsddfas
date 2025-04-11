@@ -13,7 +13,7 @@ public String intro() {
         return "test/main";
     }
     @GetMapping("01")
-    public String test01() {
+    public String myPage01() {
 
         return "test/01";
     }

@@ -2,9 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>MyPage</title>
 </head>
-<body>
-
+<link rel="stylesheet" th:href="@{/css/global.css}" />
+<body style="background-color: black">
+<h1 style="text-align : center; color: lavender; font-size: 55px">
+    <i class="gowun-batang-regular">Fropify</i>
+</h1>
+<div class="container" style="display: flex; justify-content: space-between; width: 100%; font-size: 40px">
+    <div id="like" class="left-menu">
+        <b style="color: lavender"> 마이페이지만들거</b>
+    </div>
+    <div id="song" class="right-menu">
+        <b style="color: lavender"> 노래목록만들거</b>
+    </div>
+</div>
 </body>
 </html>
