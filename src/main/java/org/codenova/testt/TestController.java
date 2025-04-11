@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/test")
 public class TestController {
-    @GetMapping("intro")
+    @GetMapping("main")
 public String intro() {
 
-        return "test/intro";
+        return "test/main";
     }
     @GetMapping("01")
     public String test01() {
