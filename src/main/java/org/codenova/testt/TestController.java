@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/test")
 public class TestController {
     @GetMapping("main")
-public String intro() {
+    public String intro() {
         /*
         해야 할 것:
         왼/오른쪽 구역나눠서
@@ -18,11 +18,13 @@ public String intro() {
 
         return "test/main";
     }
+
     @GetMapping("01")
     public String detailPage01() {
 // 페이지 검사 눌러서, 백그라운드 컬러 조정해볼 것
         return "test/01";
     }
+
     @GetMapping("mypage")
     public String myPage01() {
    /* 유저 정보 받아온 후
@@ -32,5 +34,11 @@ public String intro() {
             이런 느낌으로 작업
     */
         return "test/mypage";
+    }
+
+    @GetMapping("02")
+    public String detail02Page01() {
+// 페이지 검사 눌러서, 백그라운드 컬러 조정해볼 것
+        return "test/02";
     }
 }
